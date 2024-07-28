@@ -1,0 +1,100 @@
+﻿body {
+    text-align:center;
+}
+.warpper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+    height:80vh
+}
+.cards {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-size: contain;
+    background-position: center;
+    background-image: url('images/q2.jpg');
+}
+.set1 {
+    background-image: url('images/0438.jpg');
+}
+.set2 {
+    background-image: url('images/0599.jpg');
+}
+.set3 {
+    background-image: url('images/0604.jpg');
+}
+.set4 {
+    background-image: url('images/0709.jpg');
+}
+.set5 {
+    background-image: url('images/282249_1595.jpg');
+}
+.set6 {
+    background-image: url('images/Garden.jpg');
+}
+.set7 {
+    background-image: url('images/IMG_0840.JPG');
+}
+.set8 {
+    background-image: url('images/IMG_0844.JPG');
+}
+.set9 {
+    background-image: url('images/Tulips.jpg');
+}
+.set10 {
+    background-image: url('images/טיול משפחתי פסח תשעח 08163.JPG');
+}
+#score{
+    display:grid;
+    grid-template-columns:repeat(50,1fr);
+    height:10vh;
+    margin-top:4vh;
+    border:2px solid black;
+}
+.s{
+    background-color:lawngreen;
+}
+#sumS{   
+    font-size:1.5rem;
+}
+.finish {
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(193 255 166 / 42%); /* Black w/ opacity */
+    display: none;
+    text-align: inherit;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#end {
+    grid-column:1/4;
+    grid-row:1/4;
+    opacity: 0.3
+}
+a, #status {
+    border: 4px solid lawngreen;
+    border-radius: 15px;
+    width: 98%;
+    color: black;
+    margin: 3px;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: white;
+}
+#end1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: white;
+    display: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 15px
+}
+img {
+    width: 98.75vw;
+    height: 98vh;
+    position: absolute;
+}
